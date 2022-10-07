@@ -1,0 +1,19 @@
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 2px 2px -2px rgba(0, 0, 0, .2);
+}
+
+.nav-items {
+    list-style: none;
+    display: flex;
+}
+
+.nav-items>li {
+    padding: 10px;
+}
+
+.nav-logo {
+    width: 60px;
+}
