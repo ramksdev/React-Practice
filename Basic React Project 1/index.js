@@ -3,6 +3,8 @@
 // Lastly, we use component syntax in react to form our page. 
 // Note, our content in each component must be under one div, or absolute parent. 
 
+
+//Main page where all components are being instatiated 
 function Page() {
     return (
         <div>
