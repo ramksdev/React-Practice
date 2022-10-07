@@ -1,4 +1,8 @@
 
+// These are all 'components' that can serve towards modularizing our HTML. Each component returns content (HTML). 
+// Lastly, we use component syntax in react to form our page. 
+// Note, our content in each component must be under one div, or absolute parent. 
+
 function Page() {
     return (
         <div>
@@ -49,9 +53,6 @@ function Header() {
         </header>
     )
 }
-
-
-
 
 ReactDOM.render(
     <Page />,
