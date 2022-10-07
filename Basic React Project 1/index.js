@@ -54,6 +54,7 @@ function Header() {
     )
 }
 
+// will render our content that is within 'page' into div with id 'root'
 ReactDOM.render(
     <Page />,
     document.getElementById("root")
