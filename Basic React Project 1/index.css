@@ -12,7 +12,7 @@
     display: flex;
 }
 
-/* All Li's that are subordinate to 'nav-items' */
+/* All Li's that are subordinate to nav-items */
 .nav-items>li {
     padding: 10px;
 }
